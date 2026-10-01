@@ -91,8 +91,8 @@ if q_mejor == true
         mensaje = ['Solución no encontrada: ', ME.message];
     end
 %% --- q_mejor = false -> multiples soluciones ---
-tic
 else
+    tic
     soluciones_encontradas = {};   
     q_semilla_nuevo = zeros(1,6);
 
