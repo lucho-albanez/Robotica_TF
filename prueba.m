@@ -33,10 +33,6 @@ for i = 1:(R.n + 1)
     end
 end
 
-% Si tuvieras herramienta definida en R.tool, la graficamos al final:
-% T_tool = T * R.tool;
-% trplot(T_tool, 'frame', 'Tool', 'length', 0.3, 'color', 'r', 'thick', 2);
-
 hold off;
 
 % mostrar robot interactivo
